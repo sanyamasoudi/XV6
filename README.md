@@ -1,7 +1,5 @@
 # Threading Support in Xv6
 
-**Authors:** Ali Momen, Mobin Barfi
-
 ## Introduction
 ### What are threads?
 Within a program, a Thread is a separate execution path. It is a lightweight process that the operating system can schedule and run concurrently with other threads. The operating system creates and manages threads, and they share the same memory and resources as the program that created them. This enables multiple threads to collaborate and work efficiently within a single program. Each such thread has its own CPU state and stack, but they share the address space of the process and the environment.
